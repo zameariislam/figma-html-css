@@ -1,0 +1,180 @@
+/* common css  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+header {
+
+
+    height: 60px;
+    border: 1px solid red;
+    margin-top: 25px;
+
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.logo {
+    margin-right: 120px;
+    width: 49px;
+    height: 35px;
+}
+
+.inner_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.left_header {
+    display: flex;
+    align-items: center;
+
+
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    margin-right: 40px;
+
+}
+
+nav ul li a {
+
+
+
+    font-family: 'Avenir', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 160%;
+    color: #4B5D68;
+
+}
+
+
+.demo_btn {
+
+    width: 210px;
+    height: 60px;
+    background: #FFFFFF;
+    box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+    border-radius: 50px;
+
+
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 160%;
+    /* identical to box height, or 26px */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.005em;
+
+    /* 2 */
+    color: #212353;
+    border: none;
+    outline: none;
+    padding: 17px 25px;
+
+
+}
+
+.demo_btn span {
+    margin-left: 20px;
+
+    width: 20px;
+    cursor: pointer;
+    color: #9C69E2;
+}
+
+#banner {
+    height: calc(100vh - 60px);
+    background-image: url('./images/banner_background.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 64%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+.inner_banner h1 {
+
+    max-width: 645px;
+    width: 100%;
+
+
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 110%;
+
+    color: #212353;
+
+}
+
+.inner_banner p {
+
+    max-width: 380px;
+
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+
+    color: #4B5D68;
+
+    margin: 50px 0 50px 0;
+}
+
+.inner_banner a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 170px;
+    height: 60px;
+
+    background: #9C69E2;
+    border-radius: 50px;
+
+    font-family: sans-serif;
+   
+    font-weight: 800;
+    font-size: 18px;
+    
+    color: #FFFFFF;
+
+}
